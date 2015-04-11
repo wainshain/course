@@ -1,0 +1,18 @@
+<p>
+  <strong>課程:</strong>
+  <%= @course.name %>
+</p>
+ 
+<p>
+  <strong>老師:</strong>
+  <%= @course.teacher %>
+</p>
+<p>
+  <strong>上課時間:</strong>
+  <%= @course.time %>
+</p>
+
+ 
+ 
+ <%= link_to 'Back', courses_path %>
+<%= link_to 'Edit', edit_course_path(@course) %>
